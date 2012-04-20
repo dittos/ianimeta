@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AECFCF42BE849EB8A3D33E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0741E9E58A147889A01C8BF /* libPods.a */; };
+		272B1C281540602700BBAA62 /* AMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B1C271540602700BBAA62 /* AMClient.m */; };
+		27362E201540668700B8FA78 /* AMWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27362E1F1540668700B8FA78 /* AMWorkViewController.m */; };
+		27362E2415406A3700B8FA78 /* AMWorkRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27362E2315406A3700B8FA78 /* AMWorkRankCell.m */; };
+		276BB95015405E0A0081C57D /* AMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276BB94F15405E0A0081C57D /* AMMainViewController.m */; };
 		278A8DAA151CA3C900AFBF17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278A8DA9151CA3C900AFBF17 /* UIKit.framework */; };
 		278A8DAC151CA3C900AFBF17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278A8DAB151CA3C900AFBF17 /* Foundation.framework */; };
 		278A8DAE151CA3C900AFBF17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278A8DAD151CA3C900AFBF17 /* CoreGraphics.framework */; };
@@ -15,22 +20,38 @@
 		278A8DBA151CA3C900AFBF17 /* AMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A8DB9151CA3C900AFBF17 /* AMAppDelegate.m */; };
 		278A8DBD151CA3C900AFBF17 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278A8DBB151CA3C900AFBF17 /* MainStoryboard.storyboard */; };
 		278A8DC0151CA3C900AFBF17 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A8DBF151CA3C900AFBF17 /* AMViewController.m */; };
+		27D1C1EB1541AF4D0090F406 /* AMVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1C1EA1541AF4D0090F406 /* AMVideoViewController.m */; };
+		27D1C1F21541BB220090F406 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1C1F11541BB220090F406 /* UIView+Layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		272B1C261540602700BBAA62 /* AMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMClient.h; sourceTree = "<group>"; };
+		272B1C271540602700BBAA62 /* AMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMClient.m; sourceTree = "<group>"; };
+		27362E1E1540668700B8FA78 /* AMWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWorkViewController.h; sourceTree = "<group>"; };
+		27362E1F1540668700B8FA78 /* AMWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWorkViewController.m; sourceTree = "<group>"; };
+		27362E2215406A3700B8FA78 /* AMWorkRankCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWorkRankCell.h; sourceTree = "<group>"; };
+		27362E2315406A3700B8FA78 /* AMWorkRankCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWorkRankCell.m; sourceTree = "<group>"; };
+		276BB94E15405E0A0081C57D /* AMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMainViewController.h; sourceTree = "<group>"; };
+		276BB94F15405E0A0081C57D /* AMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMainViewController.m; sourceTree = "<group>"; };
 		278A8DA5151CA3C900AFBF17 /* ianimeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ianimeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		278A8DA9151CA3C900AFBF17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		278A8DAB151CA3C900AFBF17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		278A8DAD151CA3C900AFBF17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		278A8DB1151CA3C900AFBF17 /* ianimeta-Info.plist */ = {isa = PBXFileReference; path = "ianimeta-Info.plist"; sourceTree = "<group>"; };
+		278A8DB1151CA3C900AFBF17 /* ianimeta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ianimeta-Info.plist"; sourceTree = "<group>"; };
 		278A8DB3151CA3C900AFBF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		278A8DB5151CA3C900AFBF17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		278A8DB7151CA3C900AFBF17 /* ianimeta-Prefix.pch */ = {isa = PBXFileReference; path = "ianimeta-Prefix.pch"; sourceTree = "<group>"; };
-		278A8DB8151CA3C900AFBF17 /* AMAppDelegate.h */ = {isa = PBXFileReference; path = AMAppDelegate.h; sourceTree = "<group>"; };
+		278A8DB7151CA3C900AFBF17 /* ianimeta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ianimeta-Prefix.pch"; sourceTree = "<group>"; };
+		278A8DB8151CA3C900AFBF17 /* AMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAppDelegate.h; sourceTree = "<group>"; };
 		278A8DB9151CA3C900AFBF17 /* AMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAppDelegate.m; sourceTree = "<group>"; };
 		278A8DBC151CA3C900AFBF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		278A8DBE151CA3C900AFBF17 /* AMViewController.h */ = {isa = PBXFileReference; path = AMViewController.h; sourceTree = "<group>"; };
+		278A8DBE151CA3C900AFBF17 /* AMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
 		278A8DBF151CA3C900AFBF17 /* AMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
+		27D1C1E91541AF4D0090F406 /* AMVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMVideoViewController.h; sourceTree = "<group>"; };
+		27D1C1EA1541AF4D0090F406 /* AMVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMVideoViewController.m; sourceTree = "<group>"; };
+		27D1C1F01541BB220090F406 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		27D1C1F11541BB220090F406 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		4B12333D20D741A4AF9AE7F7 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F0741E9E58A147889A01C8BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +62,7 @@
 				278A8DAA151CA3C900AFBF17 /* UIKit.framework in Frameworks */,
 				278A8DAC151CA3C900AFBF17 /* Foundation.framework in Frameworks */,
 				278A8DAE151CA3C900AFBF17 /* CoreGraphics.framework in Frameworks */,
+				0AECFCF42BE849EB8A3D33E4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +75,7 @@
 				278A8DAF151CA3C900AFBF17 /* ianimeta */,
 				278A8DA8151CA3C900AFBF17 /* Frameworks */,
 				278A8DA6151CA3C900AFBF17 /* Products */,
+				4B12333D20D741A4AF9AE7F7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +93,7 @@
 				278A8DA9151CA3C900AFBF17 /* UIKit.framework */,
 				278A8DAB151CA3C900AFBF17 /* Foundation.framework */,
 				278A8DAD151CA3C900AFBF17 /* CoreGraphics.framework */,
+				F0741E9E58A147889A01C8BF /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +107,18 @@
 				278A8DBE151CA3C900AFBF17 /* AMViewController.h */,
 				278A8DBF151CA3C900AFBF17 /* AMViewController.m */,
 				278A8DB0151CA3C900AFBF17 /* Supporting Files */,
+				276BB94E15405E0A0081C57D /* AMMainViewController.h */,
+				276BB94F15405E0A0081C57D /* AMMainViewController.m */,
+				272B1C261540602700BBAA62 /* AMClient.h */,
+				272B1C271540602700BBAA62 /* AMClient.m */,
+				27362E1E1540668700B8FA78 /* AMWorkViewController.h */,
+				27362E1F1540668700B8FA78 /* AMWorkViewController.m */,
+				27362E2215406A3700B8FA78 /* AMWorkRankCell.h */,
+				27362E2315406A3700B8FA78 /* AMWorkRankCell.m */,
+				27D1C1E91541AF4D0090F406 /* AMVideoViewController.h */,
+				27D1C1EA1541AF4D0090F406 /* AMVideoViewController.m */,
+				27D1C1F01541BB220090F406 /* UIView+Layout.h */,
+				27D1C1F11541BB220090F406 /* UIView+Layout.m */,
 			);
 			path = ianimeta;
 			sourceTree = "<group>";
@@ -108,6 +144,7 @@
 				278A8DA1151CA3C900AFBF17 /* Sources */,
 				278A8DA2151CA3C900AFBF17 /* Frameworks */,
 				278A8DA3151CA3C900AFBF17 /* Resources */,
+				CF05A75CEE064C6BB191A4DC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,6 +192,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF05A75CEE064C6BB191A4DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		278A8DA1151CA3C900AFBF17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -163,6 +217,12 @@
 				278A8DB6151CA3C900AFBF17 /* main.m in Sources */,
 				278A8DBA151CA3C900AFBF17 /* AMAppDelegate.m in Sources */,
 				278A8DC0151CA3C900AFBF17 /* AMViewController.m in Sources */,
+				276BB95015405E0A0081C57D /* AMMainViewController.m in Sources */,
+				272B1C281540602700BBAA62 /* AMClient.m in Sources */,
+				27362E201540668700B8FA78 /* AMWorkViewController.m in Sources */,
+				27362E2415406A3700B8FA78 /* AMWorkRankCell.m in Sources */,
+				27D1C1EB1541AF4D0090F406 /* AMVideoViewController.m in Sources */,
+				27D1C1F21541BB220090F406 /* UIView+Layout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,22 +295,30 @@
 		};
 		278A8DC4151CA3C900AFBF17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B12333D20D741A4AF9AE7F7 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ianimeta/ianimeta-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ianimeta/ianimeta-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		278A8DC5151CA3C900AFBF17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B12333D20D741A4AF9AE7F7 /* Pods.xcconfig */;
 			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ianimeta/ianimeta-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ianimeta/ianimeta-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -274,6 +342,7 @@
 				278A8DC5151CA3C900AFBF17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

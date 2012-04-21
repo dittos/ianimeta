@@ -82,7 +82,7 @@
 
 - (void)loadChart
 {
-    [[AMClient sharedClient] getPath:@"charts/work?period=week&count=20" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[AMClient sharedClient] getPath:@"v1/charts/work?period=week&count=20" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [chart removeAllObjects];
         for (NSDictionary *item in [responseObject objectForKey:@"items"]) {
             AMWorkChartItem *chartItem = [[AMWorkChartItem alloc] init];

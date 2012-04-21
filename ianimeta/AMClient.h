@@ -12,4 +12,8 @@
 
 + (AMClient *)sharedClient;
 
+- (NSString *)token;
+- (void)setToken:(NSString *)token;
+- (void)loginWithToken:(NSString *)token;
+
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="TTZ-ju-afV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3oR-HM-L4i">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <development defaultVersion="4200" identifier="xcode"/>
@@ -12,11 +12,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jai-7f-fxt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="9xN-Xy-JhQ" customClass="AMMainViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AF5-Os-5Om">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="alq-yS-a5q">
-                                <rect key="frame" x="0.0" y="44" width="320" height="372"/>
+                                <rect key="frame" x="0.0" y="44" width="320" height="323"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -92,7 +92,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="94" y="146"/>
+            <point key="canvasLocation" x="780" y="146"/>
         </scene>
         <!--Work View Controller-->
         <scene sceneID="YnM-v6-Ve6">
@@ -100,7 +100,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJT-ix-qdq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="dzS-22-799" customClass="AMWorkViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="L1p-g9-mD7">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -189,7 +189,7 @@
                     <navigationItem key="navigationItem" id="ZKj-Gg-bcn"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="445" y="139"/>
+            <point key="canvasLocation" x="1131" y="139"/>
         </scene>
         <!--Video View Controller - 동영상-->
         <scene sceneID="ATk-Hj-J43">
@@ -197,11 +197,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxX-tB-zTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Z8U-6j-7F2" customClass="AMVideoViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2wC-DJ-9dw">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="kf0-IS-Gpb">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -223,13 +223,14 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="790" y="138"/>
+            <point key="canvasLocation" x="1476" y="138"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - 작품 정보-->
         <scene sceneID="vNd-KN-kLz">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBJ-Sh-Ppi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController definesPresentationContext="YES" id="TTZ-ju-afV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="작품 정보" id="3O2-3K-TFh"/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="sXa-b0-cxc">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.22745099663734436" green="0.7350746268656716" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -239,10 +240,246 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-318" y="146"/>
+            <point key="canvasLocation" x="368" y="146"/>
+        </scene>
+        <!--Library View Controller - 내 기록-->
+        <scene sceneID="cxc-Tc-yGb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hs4-1z-9uz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="lFF-ls-FW7" customClass="AMLibraryViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="HTG-wa-rbw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" textLabel="6wx-Ho-pdI" detailTextLabel="Q8k-qE-VMk" style="IBUITableViewCellStyleValue1" id="IPV-zj-KzH">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" id="6wx-Ho-pdI">
+                                            <rect key="frame" x="10" y="11" width="35" height="21"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q8k-qE-VMk">
+                                            <rect key="frame" x="251" y="13" width="39" height="19"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="0.2196078431372549" green="0.32941176470588235" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <segue destination="IQm-TR-Jdm" kind="push" identifier="ItemDetailSegue" id="thP-fg-oRs"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="내 기록" id="gg3-ua-INu"/>
+                    <connections>
+                        <segue destination="B3O-Lu-Img" kind="modal" identifier="LoginSegue" id="Wbi-YU-rSz"/>
+                    </connections>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="701" y="735"/>
+        </scene>
+        <!--Login View Controller - 로그인-->
+        <scene sceneID="8Bx-5b-7kn">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="378-Ab-yCc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="pYf-T5-gOa" customClass="AMLoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JuL-CA-jDh">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" id="zCq-BT-2An">
+                                <rect key="frame" x="20" y="59" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="pYf-T5-gOa" id="imH-MU-i34"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="암호" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" id="7Ne-l0-mVO">
+                                <rect key="frame" x="20" y="98" width="280" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="pYf-T5-gOa" id="gJx-Uk-Abg"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="감상 기록을 관리하려면 로그인이 필요합니다." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Gmv-P2-h7m">
+                                <rect key="frame" x="20" y="19" width="280" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JEr-ab-q1L">
+                                <rect key="frame" x="209" y="137" width="81" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="회원 가입">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u4o-oC-d5o" kind="push" id="D1G-kg-CD6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="아직 아이디가 없으신가요?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gh9-ox-8ba">
+                                <rect key="frame" x="30" y="144" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="로그인" id="WRh-OZ-adZ">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="EpB-Sv-DTD">
+                            <connections>
+                                <action selector="cancel:" destination="pYf-T5-gOa" id="vzt-Dn-DL2"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="로그인" style="done" id="1Ii-BR-0J8">
+                            <connections>
+                                <action selector="doLogin:" destination="pYf-T5-gOa" id="8Sm-4a-axK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="passwordField" destination="7Ne-l0-mVO" id="4iQ-X2-Qcr"/>
+                        <outlet property="usernameField" destination="zCq-BT-2An" id="fzS-Dq-BeB"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1601" y="737"/>
+        </scene>
+        <!--View Controller - 회원 가입-->
+        <scene sceneID="Kxg-t2-EAk">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aIq-kP-i5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="u4o-oC-d5o" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MTv-Iu-V08">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="회원 가입" id="xj1-Fi-yA7"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1969" y="737"/>
+        </scene>
+        <!--Navigation Controller - 내 기록-->
+        <scene sceneID="fvv-hF-MBX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DWA-9d-f0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="ITE-q0-a0z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="내 기록" id="wzN-kf-BnK"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kbI-7r-vnF">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.22745099660000001" green="0.73507462690000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="lFF-ls-FW7" kind="relationship" relationship="rootViewController" id="h3a-6K-Lip"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="167" y="735"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="OEB-PN-N3Q">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFz-xo-F3h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tabBarController id="3oR-HM-L4i" customClass="AMViewController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Qte-2U-kNh">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TTZ-ju-afV" kind="relationship" relationship="viewControllers" id="LSU-QE-0N9"/>
+                        <segue destination="ITE-q0-a0z" kind="relationship" relationship="viewControllers" id="J92-36-Md2"/>
+                    </connections>
+                </tabBarController>
+            </objects>
+            <point key="canvasLocation" x="-318" y="226"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zCX-ad-YWT">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="myt-AW-vcL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="B3O-Lu-Img" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Xf5-h3-9Td">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.22745099660000001" green="0.73507462690000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pYf-T5-gOa" kind="relationship" relationship="rootViewController" id="k5t-gE-Wve"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1075" y="737"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="TCZ-vR-lLE">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qMg-Gh-BCi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="IQm-TR-Jdm" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dSe-uT-VlF">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="KYx-dE-C6g">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="IQm-TR-Jdm" id="B2v-RZ-dz8"/>
+                            <outlet property="delegate" destination="IQm-TR-Jdm" id="jiU-4T-LeD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="HJM-qS-4lG"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="1080" y="1329"/>
         </scene>
     </scenes>
     <classes>
+        <class className="AMLibraryViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AMLibraryViewController.h"/>
+        </class>
+        <class className="AMLoginViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AMLoginViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="passwordField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="usernameField" candidateClass="UITextField"/>
+            </relationships>
+        </class>
         <class className="AMMainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AMMainViewController.h"/>
             <relationships>
@@ -254,6 +491,9 @@
             <relationships>
                 <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
             </relationships>
+        </class>
+        <class className="AMViewController" superclassName="UITabBarController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/AMViewController.h"/>
         </class>
         <class className="AMWorkRankCell" superclassName="UITableViewCell">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AMWorkRankCell.h"/>

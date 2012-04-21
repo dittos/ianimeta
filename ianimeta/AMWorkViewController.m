@@ -83,7 +83,7 @@ enum {
                             @"true", @"only_commented",
                             @"4", @"count",
                             nil];
-    [[AMClient sharedClient] getPath:@"records" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[AMClient sharedClient] getPath:@"v1/records" parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         [reviews removeAllObjects];
         for (NSDictionary *item in responseObject) {
             AMReview *review = [[AMReview alloc] init];

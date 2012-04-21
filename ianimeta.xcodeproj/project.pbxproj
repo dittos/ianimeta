@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0AECFCF42BE849EB8A3D33E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0741E9E58A147889A01C8BF /* libPods.a */; };
+		271208C01542A3C900258AEB /* AMLibraryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 271208BF1542A3C900258AEB /* AMLibraryItem.m */; };
 		272B1C281540602700BBAA62 /* AMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 272B1C271540602700BBAA62 /* AMClient.m */; };
 		27362E201540668700B8FA78 /* AMWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27362E1F1540668700B8FA78 /* AMWorkViewController.m */; };
 		27362E2415406A3700B8FA78 /* AMWorkRankCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27362E2315406A3700B8FA78 /* AMWorkRankCell.m */; };
@@ -22,9 +23,14 @@
 		278A8DC0151CA3C900AFBF17 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A8DBF151CA3C900AFBF17 /* AMViewController.m */; };
 		27D1C1EB1541AF4D0090F406 /* AMVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1C1EA1541AF4D0090F406 /* AMVideoViewController.m */; };
 		27D1C1F21541BB220090F406 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1C1F11541BB220090F406 /* UIView+Layout.m */; };
+		27D1C1F51541C36E0090F406 /* AMLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1C1F41541C36E0090F406 /* AMLibraryViewController.m */; };
+		27D1C1F81541C4090090F406 /* AMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D1C1F71541C4090090F406 /* AMLoginViewController.m */; };
+		27D1C2001542773B0090F406 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1C1FF1542773B0090F406 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271208BE1542A3C900258AEB /* AMLibraryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLibraryItem.h; sourceTree = "<group>"; };
+		271208BF1542A3C900258AEB /* AMLibraryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMLibraryItem.m; sourceTree = "<group>"; };
 		272B1C261540602700BBAA62 /* AMClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMClient.h; sourceTree = "<group>"; };
 		272B1C271540602700BBAA62 /* AMClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMClient.m; sourceTree = "<group>"; };
 		27362E1E1540668700B8FA78 /* AMWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWorkViewController.h; sourceTree = "<group>"; };
@@ -50,6 +56,11 @@
 		27D1C1EA1541AF4D0090F406 /* AMVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMVideoViewController.m; sourceTree = "<group>"; };
 		27D1C1F01541BB220090F406 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
 		27D1C1F11541BB220090F406 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		27D1C1F31541C36E0090F406 /* AMLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLibraryViewController.h; sourceTree = "<group>"; };
+		27D1C1F41541C36E0090F406 /* AMLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMLibraryViewController.m; sourceTree = "<group>"; };
+		27D1C1F61541C4090090F406 /* AMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMLoginViewController.h; sourceTree = "<group>"; };
+		27D1C1F71541C4090090F406 /* AMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMLoginViewController.m; sourceTree = "<group>"; };
+		27D1C1FF1542773B0090F406 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4B12333D20D741A4AF9AE7F7 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		F0741E9E58A147889A01C8BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -59,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27D1C2001542773B0090F406 /* Security.framework in Frameworks */,
 				278A8DAA151CA3C900AFBF17 /* UIKit.framework in Frameworks */,
 				278A8DAC151CA3C900AFBF17 /* Foundation.framework in Frameworks */,
 				278A8DAE151CA3C900AFBF17 /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +84,7 @@
 		278A8D9A151CA3C800AFBF17 = {
 			isa = PBXGroup;
 			children = (
+				27D1C1FF1542773B0090F406 /* Security.framework */,
 				278A8DAF151CA3C900AFBF17 /* ianimeta */,
 				278A8DA8151CA3C900AFBF17 /* Frameworks */,
 				278A8DA6151CA3C900AFBF17 /* Products */,
@@ -119,6 +132,12 @@
 				27D1C1EA1541AF4D0090F406 /* AMVideoViewController.m */,
 				27D1C1F01541BB220090F406 /* UIView+Layout.h */,
 				27D1C1F11541BB220090F406 /* UIView+Layout.m */,
+				27D1C1F31541C36E0090F406 /* AMLibraryViewController.h */,
+				27D1C1F41541C36E0090F406 /* AMLibraryViewController.m */,
+				27D1C1F61541C4090090F406 /* AMLoginViewController.h */,
+				27D1C1F71541C4090090F406 /* AMLoginViewController.m */,
+				271208BE1542A3C900258AEB /* AMLibraryItem.h */,
+				271208BF1542A3C900258AEB /* AMLibraryItem.m */,
 			);
 			path = ianimeta;
 			sourceTree = "<group>";
@@ -223,6 +242,9 @@
 				27362E2415406A3700B8FA78 /* AMWorkRankCell.m in Sources */,
 				27D1C1EB1541AF4D0090F406 /* AMVideoViewController.m in Sources */,
 				27D1C1F21541BB220090F406 /* UIView+Layout.m in Sources */,
+				27D1C1F51541C36E0090F406 /* AMLibraryViewController.m in Sources */,
+				27D1C1F81541C4090090F406 /* AMLoginViewController.m in Sources */,
+				271208C01542A3C900258AEB /* AMLibraryItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +324,10 @@
 				GCC_PREFIX_HEADER = "ianimeta/ianimeta-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ianimeta/ianimeta-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
@@ -317,6 +343,10 @@
 				GCC_PREFIX_HEADER = "ianimeta/ianimeta-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ianimeta/ianimeta-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = app;
